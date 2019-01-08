@@ -59,6 +59,7 @@ public class OdbConfiguration {
 	private static boolean useMultiBuffer = true;
 	private static boolean automaticCloseFileOnExit = false;
 	private static boolean saveHistory = false;
+	private static boolean useRedisExternalCache = false;
 
 	private static String defaultDatabaseCharacterEncoding = "ISO8859-1";
 	private static String databaseCharacterEncoding = defaultDatabaseCharacterEncoding;
